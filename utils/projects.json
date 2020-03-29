@@ -1,0 +1,16 @@
+{
+  "react": [
+    {
+      "id": 1,
+      "title": "Be The Hero",
+      "img": "/images/projects/heroes.png",
+      "url": "https://laferu.github.io/Be-The-Hero",
+      "tecnologias": [
+        "React JS",
+        "HTML5",
+        "CSS3",
+        "Javascript/Ecmascript 6+"
+      ]
+    }
+  ]
+}
