@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'alternate-gothic';
+    src: url('alternategotno2-webfont.woff2') format('woff2'),
+         url('alternategotno2-webfont.woff') format('woff'),
+         url('alternategotno2-webfont.ttf') format('ttf'),
+         url('alternategotno2-webfont.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+
+}
