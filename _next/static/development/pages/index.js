@@ -15,7 +15,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _styles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles */ "./components/Header/styles.js");
 var _this = undefined,
-    _jsxFileName = "/home/laferu/projetos/rafael-araujo/components/Header/index.js";
+    _jsxFileName = "/home/laferu/projetos/Laferu.github.io/components/Header/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -244,7 +244,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  display: grid;\n  grid-template-columns: 2fr 3fr;\n  height: 75px;\n  overflow: hidden;\n  && {\n    margin-top: 30px;\n    margin-bottom: 30px;\n  }\n\n  @media screen and (min-width: 320px) {\n    grid-template-columns: 1fr 2fr;\n  }\n\n  @media screen and (min-width: 425px) {\n    height: 100px;\n    grid-template-columns: 120px 1fr;\n  }\n\n  @media screen and (min-width: 768px) {\n    grid-template-columns: 150px 1fr;\n  }\n\n  .title {\n    margin-top: 20px;\n    @media screen and (min-width: 960px) {\n      padding-left: 5px;\n    }\n\n    h1 {\n      font-size: 1.4rem;\n      width: 0;\n      transform: rotateZ(-10deg);\n      margin: 0;\n      margin-bottom: -5px;\n    }\n\n    h2 {\n      font-size: .8rem;\n      text-align: right;\n      width: 70px;\n      transform: rotateZ(-10deg);\n      margin: 0;\n\n      @media screen and (min-width: 425px) {\n        width: 90px;\n      }\n    }\n  }\n\n  nav {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    font-family: alternate-gothic;\n    font-size: 1.4rem;\n\n    @media screen and (min-width: 320px) {\n      grid-template-columns: 60px 70px 40px;\n    }\n\n    @media screen and (min-width: 425px) {\n      font-size: 1.2rem;\n      grid-template-columns: 80px 100px 1fr;\n    }\n\n    @media screen and (min-width: 768px) {\n      font-size: 1.5rem;\n      grid-template-columns: 150px 150px 1fr;\n    }\n\n    ul {\n      margin: 0;\n      padding: 0;\n      list-style: none;\n      padding-top: 10px;\n      overflow: hidden;\n\n      li + li {\n        margin-top: 3px;\n      }\n    }\n\n    .nav-hidden {\n      @media screen and (min-width: 320px) {\n        display: none;\n      }\n    }\n\n    .nav-show {\n      display: none;\n    }\n  }\n"]);
+  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  display: grid;\n  grid-template-columns: 63px 1fr;\n  height: 70px;\n  overflow: hidden;\n  && {\n    margin-top: 10px;\n    margin-bottom: 10px;\n  }\n\n  @media screen and (min-width: 320px) {\n    grid-template-columns: 90px 1fr;\n    height: 75px;\n  }\n\n  @media screen and (min-width: 425px) {\n    height: 90px;\n    grid-template-columns: 140px 1fr;\n  }\n\n  @media screen and (min-width: 768px) {\n    height: 120px;\n    grid-template-columns: 200px 1fr;\n  }\n\n  .title {\n    margin-top: 25px;\n    @media screen and (min-width: 960px) {\n      padding-left: 5px;\n    }\n\n    h1 {\n      font-size: .8rem;\n      width: 0;\n      transform: rotateZ(-10deg);\n      margin: 0;\n      margin-bottom: -6px;\n\n      @media screen and (min-width: 320px) {\n        font-size: 1rem;\n        margin-bottom: -6px;\n      }\n\n      @media screen and (min-width: 425px) {\n        font-size: 1.4rem;\n        margin-bottom: -15px;\n      }\n    }\n\n    h2 {\n      font-size: .35rem;\n      text-align: right;\n      width: 59px;\n      transform: rotateZ(-10deg);\n      margin: 0;\n\n      @media screen and (min-width: 320px) {\n        font-size: .5rem;\n        width: 80px;\n      }\n\n      @media screen and (min-width: 425px) {\n        font-size: .8rem;\n        width: 125px;\n      }\n\n      @media screen and (min-width: 768px) {\n        width: 165px;\n      }\n    }\n  }\n\n  nav {\n    display: grid;\n    grid-template-columns: 70px 1fr;\n    /* font-family: alternate-gothic; */\n    font-size: .6rem;\n    margin-top: 10px;\n\n    @media screen and (min-width: 320px) {\n      font-size: .7rem;\n      grid-template-columns: 80px 1fr;\n    }\n\n    @media screen and (min-width: 425px) {\n      font-size: .8rem;\n      grid-template-columns: 100px 1fr;\n    }\n\n    @media screen and (min-width: 768px) {\n      font-size: .8rem;\n      grid-template-columns: 160px 200px 1fr;\n    }\n\n    @media screen and (min-width: 1024px) {\n      font-size: 1rem;\n      grid-template-columns: 200px 250px 1fr;\n    }\n\n    ul {\n      margin: 0;\n      padding: 0;\n      list-style: none;\n      padding-top: 10px;\n      padding-bottom: 5px;\n      overflow: hidden;\n\n      li + li {\n        margin-top: 5px;\n      }\n    }\n\n    .nav-hidden {\n      @media screen and (min-width: 768px) {\n        display: none;\n      }\n    }\n\n    .nav-show {\n      display: none;\n    }\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -271,7 +271,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _styles__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles */ "./components/SectionProjects/ProjectCard/styles.js");
 var _this = undefined,
-    _jsxFileName = "/home/laferu/projetos/rafael-araujo/components/SectionProjects/ProjectCard/index.js";
+    _jsxFileName = "/home/laferu/projetos/Laferu.github.io/components/SectionProjects/ProjectCard/index.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -336,7 +336,7 @@ var ProjectCard = function ProjectCard(_ref) {
       lineNumber: 18,
       columnNumber: 13
     }
-  }, "Tecnologias usadas:"), data.tecnologias.map(function (e, index) {
+  }, "Tecnologias:"), data.tecnologias.map(function (e, index) {
     return __jsx("li", {
       key: index,
       __self: _this,
@@ -368,7 +368,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  width: 200px;\n  height: 300px;\n  box-shadow: 2.5px 2.5px 8px #CCC;\n  border-radius: 5px;\n\n  .flipper {\n    width: 100%;\n    height: 100%;\n    position: relative;\n    transform-style: preserve-3d;\n    transition: transform .8s;\n\n    .front {\n      /* padding: 10px; */\n      display: flex;\n      flex-direction: column;\n      justify-content: flex-end;\n      background: url(", ");\n\n      h3 {\n        color: #FFF;\n        text-shadow: 2.5px 2.5px 8px #000;\n        padding: 10px;\n        background: #00000040;\n      }\n    }\n\n    .back {\n      padding: 10px;\n      display: flex;\n      flex-direction: column;\n      background: #FFF;\n      justify-content: center;\n      transform: rotate3d(0, 1, 0, 180deg);\n\n      ul {\n        margin: 0;\n        padding: 0;\n        list-style: none;\n        font-size: .9rem;\n\n        h4 {\n          margin: 0;\n          margin-bottom: 10px;\n        }\n\n        li + li {\n          margin-top: 3px;\n        }\n      }\n    }\n\n    .back, .front {\n      position: absolute;\n      width: 100%;\n      height: 100%;\n      backface-visibility: hidden;\n    }\n  }\n\n  :hover .flipper {\n    transform: rotate3d(0, 1, 0, 180deg);\n  }\n\n  h3 {\n    margin: 0;\n  }\n"]);
+  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  width: 200px;\n  height: 300px;\n  box-shadow: 2.5px 2.5px 8px #CCC;\n  border-radius: 5px;\n\n  .flipper {\n    width: 100%;\n    height: 100%;\n    position: relative;\n    transform-style: preserve-3d;\n    transition: transform .8s;\n\n    .front {\n      /* padding: 10px; */\n      display: flex;\n      flex-direction: column;\n      justify-content: flex-end;\n      background: url(", ");\n\n      h3 {\n        color: #FFF;\n        text-shadow: 2.5px 2.5px 8px #000;\n        padding: 10px;\n        background: #00000040;\n        font-size: .7rem;\n      }\n    }\n\n    .back {\n      padding: 10px;\n      display: flex;\n      flex-direction: column;\n      background: #FFF;\n      justify-content: center;\n      transform: rotate3d(0, 1, 0, 180deg);\n      font-size: 1rem;\n\n      ul {\n        margin: 0;\n        padding: 0;\n        list-style: none;\n        font-size: .9rem;\n\n        h4 {\n          margin: 0;\n          margin-bottom: 10px;\n          font-size: 1em;\n        }\n\n        li + li {\n          margin-top: 3px;\n        }\n      }\n    }\n\n    .back, .front {\n      position: absolute;\n      width: 100%;\n      height: 100%;\n      backface-visibility: hidden;\n    }\n  }\n\n  :hover .flipper {\n    transform: rotate3d(0, 1, 0, 180deg);\n  }\n\n  h3 {\n    margin: 0;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -398,7 +398,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles */ "./components/SectionProjects/styles.js");
 /* harmony import */ var _ProjectCard__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ProjectCard */ "./components/SectionProjects/ProjectCard/index.js");
 var _this = undefined,
-    _jsxFileName = "/home/laferu/projetos/rafael-araujo/components/SectionProjects/index.js";
+    _jsxFileName = "/home/laferu/projetos/Laferu.github.io/components/SectionProjects/index.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -461,7 +461,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  box-shadow: 2.5px 2.5px 8px #ccc;\n  border-radius: 3px;\n  padding: 10px;\n  .section-container {\n    display: flex;\n    justify-content: space-evenly;\n    flex-wrap: wrap;\n    width: 100%;\n  }\n\n  h2 {\n    margin: 0;\n    margin-left: 20px;\n    margin-bottom: 20px;\n  }\n"]);
+  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  box-shadow: 2.5px 2.5px 8px #ccc;\n  border-radius: 3px;\n  padding: 10px;\n  .section-container {\n    display: flex;\n    justify-content: space-evenly;\n    flex-wrap: wrap;\n    width: 100%;\n  }\n\n  h2 {\n    margin: 0;\n    margin-left: 20px;\n    margin-bottom: 20px;\n    font-size: 1.4rem;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -1970,10 +1970,10 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Flaferu%2Fprojetos%2Frafael-araujo%2Fpages%2Findex.js!./":
-/*!***************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Flaferu%2Fprojetos%2Frafael-araujo%2Fpages%2Findex.js ***!
-  \***************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Flaferu%2Fprojetos%2FLaferu.github.io%2Fpages%2Findex.js!./":
+/*!******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Flaferu%2Fprojetos%2FLaferu.github.io%2Fpages%2Findex.js ***!
+  \******************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10220,7 +10220,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Header */ "./components/Header/index.js");
 /* harmony import */ var _components_SectionProjects__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/SectionProjects */ "./components/SectionProjects/index.js");
 var _this = undefined,
-    _jsxFileName = "/home/laferu/projetos/rafael-araujo/pages/index.js";
+    _jsxFileName = "/home/laferu/projetos/Laferu.github.io/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -10301,7 +10301,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _projects_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./projects.json */ "./utils/projects.json");
 var _projects_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./projects.json */ "./utils/projects.json", 1);
 var _this = undefined,
-    _jsxFileName = "/home/laferu/projetos/rafael-araujo/utils/Context.js";
+    _jsxFileName = "/home/laferu/projetos/Laferu.github.io/utils/Context.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -10363,7 +10363,7 @@ var GlobalProvider = function GlobalProvider(_ref) {
 /*! exports provided: react, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"react\":[{\"id\":1,\"title\":\"Be The Hero\",\"img\":\"/images/projects/heroes.png\",\"url\":\"https://laferu.github.io/Be-The-Hero\",\"tecnologias\":[\"React JS\",\"HTML5\",\"CSS3\",\"Javascript/Ecmascript 6+\"]}]}");
+module.exports = JSON.parse("{\"react\":[{\"id\":1,\"title\":\"Be The Hero\",\"img\":\"/images/projects/heroes.png\",\"url\":\"https://laferu.github.io/Be-The-Hero\",\"tecnologias\":[\"React JS\",\"HTML5\",\"CSS3\",\"Ecmascript 6+\",\"Node JS\",\"Express\",\"SQLite3\"]}]}");
 
 /***/ }),
 
@@ -10387,7 +10387,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject5() {
-  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  * {\n    box-sizing: border-box;\n  }\n\n  html {\n    scroll-behavior: smooth;\n    height: 100vh;\n  }\n\n  @media screen and (prefers-reduced-motion: reduce) {\n    html {\n      scroll-behavior: auto;\n    }\n  }\n\n  html {\n    font-size: 12px;\n\n    @media screen and (min-width: 425px) {\n      font-size: 16px;\n    }\n  }\n\n  body {\n    background: #f7f9fb;\n    font-family: 'Roboto', sans-serif;\n    margin: 0;\n    padding: 0;\n    display: flex;\n    height: 100vh;\n    color: #454545;\n  }\n\n  #__next {\n    display: flex;\n    flex: 1;\n    flex-direction: column;\n  }\n\n  .container {\n    margin: 0 auto;\n    padding: 0 10px;\n    width: 100%;\n\n    @media screen and (min-width: 320px) {\n      padding: 0 10px;\n    }\n\n    @media screen and (min-width: 320px) {\n      padding: 0 30px;\n    }\n\n    @media screen and (min-width: 768px) {\n      padding: 0 50px;\n    }\n\n    @media screen and (min-width: 979px) {\n      padding: 0;\n      width: 900px;\n    }\n\n    @media screen and (min-width: 980px) {\n      width: 900px;\n    }\n\n    @media screen and (min-width: 1200px) {\n      width: 1200px;\n    }\n  }\n\n  .container-fluid {\n    width: 100%;\n    background: #FFF;\n    box-shadow: 2.5px 2.5px 8px #CCC;\n  }\n\n  .nav-toggle-show {\n    &&{\n      height: 145px;\n    }\n  }\n\n  a {\n    transition: color .2s;\n    :link, :visited {\n      text-decoration: none;\n      color: inherit;\n    }\n\n    :hover, :active {\n      color: #a7a9ac;\n    }\n  }\n"]);
+  var data = Object(_babel_runtime_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  * {\n    box-sizing: border-box;\n  }\n\n  html {\n    scroll-behavior: smooth;\n    height: 100vh;\n  }\n\n  @media screen and (prefers-reduced-motion: reduce) {\n    html {\n      scroll-behavior: auto;\n    }\n  }\n\n  html {\n    font-size: 12px;\n\n    @media screen and (min-width: 768px) {\n      font-size: 16px;\n    }\n  }\n\n  body {\n    background: #f7f9fb;\n    font-family: 'Press Start 2P', cursive;\n    margin: 0;\n    padding: 0;\n    display: flex;\n    height: 100vh;\n    color: #454545;\n  }\n\n  #__next {\n    display: flex;\n    flex: 1;\n    flex-direction: column;\n  }\n\n  .container {\n    margin: 0 auto;\n    padding: 0 10px;\n    width: 100%;\n\n    @media screen and (min-width: 320px) {\n      padding: 0 10px;\n    }\n\n    @media screen and (min-width: 320px) {\n      padding: 0 20px;\n    }\n\n    @media screen and (min-width: 768px) {\n      padding: 0 50px;\n    }\n\n    @media screen and (min-width: 979px) {\n      padding: 0;\n      width: 900px;\n    }\n\n    @media screen and (min-width: 980px) {\n      width: 900px;\n    }\n\n    @media screen and (min-width: 1200px) {\n      width: 1200px;\n    }\n  }\n\n  .container-fluid {\n    width: 100%;\n    background: #FFF;\n    box-shadow: 2.5px 2.5px 8px #CCC;\n  }\n\n  .nav-toggle-show {\n    &&{\n      height: 145px;\n    }\n  }\n\n  a {\n    transition: color .2s;\n    :link, :visited {\n      text-decoration: none;\n      color: inherit;\n    }\n\n    :hover, :active {\n      color: #a7a9ac;\n    }\n  }\n"]);
 
   _templateObject5 = function _templateObject5() {
     return data;
@@ -10447,13 +10447,13 @@ var StyledSpace = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(
 /***/ }),
 
 /***/ 1:
-/*!*******************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Flaferu%2Fprojetos%2Frafael-araujo%2Fpages%2Findex.js ***!
-  \*******************************************************************************************************************************/
+/*!**********************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Flaferu%2Fprojetos%2FLaferu.github.io%2Fpages%2Findex.js ***!
+  \**********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Flaferu%2Fprojetos%2Frafael-araujo%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Flaferu%2Fprojetos%2Frafael-araujo%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Flaferu%2Fprojetos%2FLaferu.github.io%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Flaferu%2Fprojetos%2FLaferu.github.io%2Fpages%2Findex.js!./");
 
 
 /***/ }),
