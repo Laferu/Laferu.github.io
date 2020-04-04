@@ -15,7 +15,7 @@ const ProjectCard = ({ data }) => {
         </div>
         <div className='back'>
           <ul>
-            <h4>Tecnologias usadas:</h4>
+            <h4>Tecnologias:</h4>
             {
               data.tecnologias.map((e, index) => (
                 <li key={index}>{e}</li>

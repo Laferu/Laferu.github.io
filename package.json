@@ -7,10 +7,10 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "predeploy": "next export",
     "deploy": "gh-pages -d out"
   },
   "dependencies": {
+    "nes.css": "^2.3.0",
     "next": "9.3.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",

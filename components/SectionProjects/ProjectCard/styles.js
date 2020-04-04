@@ -25,6 +25,7 @@ export const StyledCard = styled.a`
         text-shadow: 2.5px 2.5px 8px #000;
         padding: 10px;
         background: #00000040;
+        font-size: .7rem;
       }
     }
 
@@ -35,6 +36,7 @@ export const StyledCard = styled.a`
       background: #FFF;
       justify-content: center;
       transform: rotate3d(0, 1, 0, 180deg);
+      font-size: 1rem;
 
       ul {
         margin: 0;
@@ -45,6 +47,7 @@ export const StyledCard = styled.a`
         h4 {
           margin: 0;
           margin-bottom: 10px;
+          font-size: 1em;
         }
 
         li + li {

@@ -15,5 +15,6 @@ export const StyledSection = styled.section`
     margin: 0;
     margin-left: 20px;
     margin-bottom: 20px;
+    font-size: 1.4rem;
   }
 `

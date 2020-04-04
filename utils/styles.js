@@ -43,14 +43,14 @@ export default createGlobalStyle`
   html {
     font-size: 12px;
 
-    @media screen and (min-width: 425px) {
+    @media screen and (min-width: 768px) {
       font-size: 16px;
     }
   }
 
   body {
     background: #f7f9fb;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Press Start 2P', cursive;
     margin: 0;
     padding: 0;
     display: flex;
@@ -74,7 +74,7 @@ export default createGlobalStyle`
     }
 
     @media screen and (min-width: 320px) {
-      padding: 0 30px;
+      padding: 0 20px;
     }
 
     @media screen and (min-width: 768px) {
